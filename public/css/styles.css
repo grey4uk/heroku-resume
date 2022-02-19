@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24 px;
+    margin-bottom: 10px;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    background: #f5f7fa;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.sidebar {
+    width: 300px;
+    background: linear-gradient(-45deg, #04142c, #08627e, #5d258b, #2a1b4e);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    color: #fff;
+    padding: 60px 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.sidebar-info {
+    padding: 40px 20px;
+}
+
+.avatar {
+    width: 100%;
+    height: auto;
+    /* border-radius: 75% 0 75% 0; */
+}
+
+.contacts-info {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    display: flex;
+}
+
+.contacts-info:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+.contacts-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #979fac;
+    margin-left: 20px;
+}
+
+.skills {
+    padding-bottom: 40px;
+}
+
+.skills-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 15px;
+    color: #ff6b08;
+}
+
+.skills-text {
+    color: #d8dadd;
+}
+
+.list {
+    padding: 20px;
+}
+
+.main-info {
+    width: 900px;
+    padding: 110px 90px;
+    /* background-color: #bec6d3; */
+}
+
+.user {
+    padding-bottom: 40px;
+}
+
+.orange-word {
+    color: #ff6b08;
+}
+
+.main-blocks {
+    padding-bottom: 40px;
+}
+
+.list {
+    padding: 20px;
+}
+
+.project-list {
+    padding: 0 20px;
+}
+
+.project-item {
+    font-weight: 700;
+}
+
+.project-item:not(:last-child) {
+    padding-bottom: 10px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.dotes {
+    flex-grow: 1;
+    border-bottom-style: dotted;
+}
+
+.normal-weight {
+    font-weight: 400;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.job-place {
+    padding-bottom: 20px;
+}
+
+img {
+    overflow: hidden;
+    transition-duration: 0.05s;
+    transition-property: transform;
+}
+
+img:hover {
+    transform: rotate(5deg);
+}
+
+.animation {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}

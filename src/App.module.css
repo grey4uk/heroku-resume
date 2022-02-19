@@ -1,0 +1,50 @@
+button {
+  border-radius: 10%;
+  height: 40px;
+  background: #8a65ee;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.container {
+  width: 280px;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  /* background-image: url("./assets/forest.jpg"); */
+  background-position: center;
+  background-size: cover;
+  padding: 18px;
+}
+
+.heroSelect {
+  color: #fff;
+  background: #8a65ee;
+  margin-bottom: 20px;
+}
+
+.animate {
+  background-image: url("./assets/anime.png");
+  height: 46px;
+  width: 32px;
+  background-repeat: no-repeat;
+  margin-bottom: 20px;
+}
+
+.buttonsBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .image{
+  width: 16px;
+  height: 18px;
+  background-image: url("./assets/elipse.svg");
+  background-position: center;
+  background-size: contain;
+  opacity: .3;
+} */
